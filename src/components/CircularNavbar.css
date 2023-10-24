@@ -1,0 +1,42 @@
+.circle-nav {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.nav-button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+}
+
+.nav-button:nth-child(1) {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-button:nth-child(2) {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-button:nth-child(3) {
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-button:nth-child(4) {
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
