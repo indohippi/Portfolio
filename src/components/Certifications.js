@@ -5,18 +5,13 @@ function Certifications() {
         <section className="certifications-section">
             <h2>Certifications</h2>
             <ul>
-                <li>
-                    <img src="path_to_icon_1.png" alt="Certification Icon 1" />
-                    Certified AWS Solutions Architect
-                </li>
-                <li>
-                    <img src="path_to_icon_2.png" alt="Certification Icon 2" />
-                    Google Cloud Professional Developer
-                </li>
-                <li>
-                    <img src="path_to_icon_3.png" alt="Certification Icon 3" />
-                    Microsoft Certified: Azure Developer Associate
-                </li>
+                <li>Web Developer - Fullstack Academy</li>
+                <li>Google Ads Search Certification - Google Digital Academy</li>
+                <li>AI-Powered Performance Ads Certification - Google Digital Academy</li>
+                <li>Google Analytics Individual Qualification</li>
+                <li>Lean Six Sigma Certifications - Amazon</li>
+                <li>Learning Music Licensing - LinkedIn</li>
+                <li>Music Law: Copyrighting a Song – LinkedIn</li>
             </ul>
         </section>
     );

@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Header() {
     return (
         <header className="header-container" style={{ backgroundImage: 'url(path_to_header_background.png)' }}>
@@ -7,11 +9,12 @@ function Header() {
                 Austin, United States 78626 <br/>
                 Tel: 4305022281 <br/>
                 Email: <a href="mailto:jaredwienen@gmail.com">jaredwienen@gmail.com</a> <br/>
-                LinkedIn: <a href="https://linkedin.com/in/jaredwienen">linkedin.com/in/jaredwienen</a>
+                LinkedIn: <a href="https://linkedin.com/in/jaredwienen" target="_blank" rel="noopener noreferrer">linkedin.com/in/jaredwienen</a>
             </address>
             <div className="links-container">
-                <a href="https://github.com/indohippi" className="profile-link">GitHub</a> | 
-                <a href="https://replit.com/@indohippi" className="profile-link">Replit</a>
+                <a href="https://github.com/indohippi" target="_blank" rel="noopener noreferrer" className="profile-link">GitHub</a> | 
+                <a href="https://replit.com/@indohippi" target="_blank" rel="noopener noreferrer" className="profile-link">Repl.it</a> |
+                <a href="https://acc-capstone-jw.netlify.app/" target="_blank" rel="noopener noreferrer" className="profile-link">Full Stack Sample</a>
             </div>
         </header>
     );

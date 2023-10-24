@@ -5,24 +5,44 @@ function WorkHistory() {
         <section className="work-history-section">
             <h2>Work History</h2>
             <div className="job">
-                <img src="path_to_company_logo_1.png" alt="Company Logo 1" />
-                <h3>Software Developer, ABC Corp (2018 - Present)</h3>
+                <h3>Logistics Scheduler</h3>
+                <p>Amazon – Austin, TX</p>
+                <p>07/2022 - Current</p>
                 <ul>
-                    <li>Developed and maintained web applications using React and Node.js.</li>
-                    <li>Collaborated with cross-functional teams to define and implement new features.</li>
+                    <li>Completed logs and reports detailing production data such as volume, materials used, and quality assurance results.</li>
+                    <li>Managed data and correspondence to secure information across complex landscapes of organizational departments.</li>
+                    <li>Programmed browser utilities for simplification of routing processes.</li>
                 </ul>
             </div>
             <div className="job">
-                <img src="path_to_company_logo_2.png" alt="Company Logo 2" />
-                <h3>Frontend Developer, DEF Ltd (2016 - 2018)</h3>
+                <h3>Fiber Specialist</h3>
+                <p>OneSupport – Austin, TX</p>
+                <p>10/2018 - 08/2022</p>
                 <ul>
-                    <li>Designed and implemented user interfaces using HTML, CSS, and JavaScript.</li>
-                    <li>Optimized web pages for maximum speed and scalability.</li>
+                    <li>Diagnosed and resolved complex integrated customer issues.</li>
+                    <li>Identified causes of issues within applications and determined modifications.</li>
                 </ul>
             </div>
-            {/* Add more job roles as needed */}
+            <div className="job">
+                <h3>Inventory Analyst</h3>
+                <p>Schneider Electric – Athens, TX</p>
+                <p>12/2015 - 03/2017</p>
+                <ul>
+                    <li>Improved forecasting systems for materials and supplies.</li>
+                    <li>Managed logistic suppliers for optimum cost and quality.</li>
+                </ul>
+            </div>
+            <div className="job">
+                <h3>Industrial Electrician and Pipeline</h3>
+                <p>Johnny Ray Clements I&E – Mabank, TX</p>
+                <p>06/2008 - 08/2015</p>
+                <ul>
+                    <li>Handled electrical wiring, controls, and lighting systems.</li>
+                </ul>
+            </div>
         </section>
     );
 }
+
 
 export default WorkHistory;

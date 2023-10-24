@@ -4,13 +4,20 @@ function Education() {
     return (
         <section className="education-section">
             <h2>Education</h2>
-            <div>
-                <img src="path_to_university_icon_1.png" alt="University Icon 1" />
-                <h3>Master of Science in Computer Science, DEF University (2014 - 2016)</h3>
+            <div className="education-item">
+                <h3>Web Development: Computer Science and Programming</h3>
+                <p>Fullstack Academy</p>
+                <p>10/2023</p>
             </div>
-            <div>
-                <img src="path_to_university_icon_2.png" alt="University Icon 2" />
-                <h3>Bachelor of Science in Information Technology, GHI Institute (2010 - 2014)</h3>
+            <div className="education-item">
+                <h3>Associate of Arts: Music Business</h3>
+                <p>Trinity Valley Community College</p>
+                <p>01/2011</p>
+            </div>
+            <div className="education-item">
+                <h3>High School Diploma</h3>
+                <p>Mabank High School - Mabank, TX</p>
+                <p>01/2008</p>
             </div>
         </section>
     );

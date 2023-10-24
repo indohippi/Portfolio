@@ -4,17 +4,9 @@ function Skills() {
     return (
         <section className="skills-section">
             <h2>Skills</h2>
-            <div className="skill">
-                <img src="path_to_skill_icon_1.png" alt="Skill Icon 1" />
-                <span>JavaScript</span>
-                <progress value="90" max="100"></progress>
+            <div className="skills-list">
+                React.js, JavaScript, Full-Stack Development, Back-End Web Development, Software Development, Front-End Development, Node.js, WordPress Development, Responsive Web Design, HTML, SQL, Data Analysis
             </div>
-            <div className="skill">
-                <img src="path_to_skill_icon_2.png" alt="Skill Icon 2" />
-                <span>React</span>
-                <progress value="85" max="100"></progress>
-            </div>
-            {/* Add more skills as needed */}
         </section>
     );
 }
