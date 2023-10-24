@@ -6,28 +6,35 @@ import WorkHistory from './WorkHistory';
 import Education from './Education';
 import Certifications from './Certifications';
 
+// Importing the images
+import skillsIcon from '../componentmedia/_magic_spell_small_final_fantasy_style_anime_icon_to_represent_skills_884038885.png';
+import workIcon from '../componentmedia/ghibli_style_work_job_scroll_anime_icon_to_represent_work_history_651009955.png';
+import educationIcon from '../componentmedia/education_books_anime_icon_to_represent_studies_and_school_1255639482.png';
+import certificationsIcon from '../componentmedia/education_books_anime_icon_to_represent_studies_and_school_2656161565.png';
+
+
 function CircularNavbar() {
     const { activeTab, setActiveTab } = useAppState();
 
     return (
         <div className="wheel-nav" style={{ backgroundImage: 'url(path_to_background_image.png)' }}>
             <div className="circle-nav">
-                <button onClick={() => setActiveTab('skills')}>
-                    <img src="path_to_skills_icon.png" alt="Skills Icon" />
-                    Skills
-                </button>
-                <button onClick={() => setActiveTab('work-history')}>
-                    <img src="path_to_work_icon.png" alt="Work History Icon" />
-                    Work History
-                </button>
-                <button onClick={() => setActiveTab('education')}>
-                    <img src="path_to_education_icon.png" alt="Education Icon" />
-                    Education
-                </button>
-                <button onClick={() => setActiveTab('certifications')}>
-                    <img src="path_to_certifications_icon.png" alt="Certifications Icon" />
-                    Certifications
-                </button>
+                <div className="nav-item">
+                    <img src={skillsIcon} alt="Skills Icon" />
+                    <button onClick={() => setActiveTab('skills')}>Skills</button>
+                </div>
+                <div className="nav-item">
+                    <img src={workIcon} alt="Work History Icon" />
+                    <button onClick={() => setActiveTab('work-history')}>Work History</button>
+                </div>
+                <div className="nav-item">
+                    <img src={educationIcon} alt="Education Icon" />
+                    <button onClick={() => setActiveTab('education')}>Education</button>
+                </div>
+                <div className="nav-item">
+                    <img src={certificationsIcon} alt="Certifications Icon" />
+                    <button onClick={() => setActiveTab('certifications')}>Certifications</button>
+                </div>
             </div>
             {activeTab === 'summary' && <Summary />}
             {activeTab === 'skills' && <Skills />}

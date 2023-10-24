@@ -1,8 +1,8 @@
 import React from 'react';
-import profilePic1 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
+import profilePic1 from '../componentmedia/hwavelogo2.png';
 // Import the other two images here. For demonstration purposes, I'm using the same image three times.
 import profilePic2 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
-import profilePic3 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
+import profilePic3 from '../componentmedia/hwavelogo2.png';
 
 function Header() {
     return (
