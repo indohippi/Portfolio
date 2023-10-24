@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
         <header className="header-container" style={{ backgroundImage: 'url(path_to_header_background.png)' }}>
-            <img src="path_to_profile_picture.png" alt="Profile Picture" className="profile-pic" />
+            <img src="/Users/jaredwienen/Desktop/my-portfolio/src/componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg" alt="Profile Picture" className="profile-pic" />
             <h1 className="glow-effect">Jared Wienen</h1>
             <address className="contact-details">
                 Austin, United States 78626 <br/>

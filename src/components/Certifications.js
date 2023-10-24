@@ -10,8 +10,8 @@ function Certifications() {
                 <li>AI-Powered Performance Ads Certification - Google</li>
                 <li>Google Analytics Individual Qualification Certification - Google</li>
                 <li>Lean Six Sigma Certifications - Amazon</li>
-                <li>Learning Music Licensing - LinkedIn</li>
-                <li>Music Law: Copyrighting a Song – LinkedIn</li>
+                <li>Generative AI Certification - Microsoft</li>
+                <li>Career Essentials in GitHub Professional Certificate – GitHub</li>
             </ul>
         </section>
     );
