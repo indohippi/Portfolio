@@ -130,3 +130,34 @@ footer {
 .footer a {
   color: #f0c040;
 }
+
+.box-section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add or update the .box-section class */
+.box-section {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0; /* Add a border */
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Add this to integrate the Noto Sans JP font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
