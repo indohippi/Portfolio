@@ -12,6 +12,7 @@ function Certifications() {
                     <li>Google Analytics Individual Qualification Certification - Google</li>
                     <li>Lean Six Sigma Certifications - Amazon</li>
                     <li>Generative AI Certification - Microsoft</li>
+                    <li>Career Essentials in Software Development - Microsoft</li>
                     <li>Career Essentials in GitHub Professional Certificate – GitHub</li>
                 </ul>
             </div>
