@@ -2,9 +2,9 @@ import React from 'react';
 
 function WorkHistory() {
     return (
-        <section className="work-history-section">
+        <section className="education-section">
             <h2>Work History</h2>
-            <div className="job">
+            <div className="education-item">
                 <h3>Logistics Scheduler</h3>
                 <p>Amazon – Austin, TX</p>
                 <p>07/2022 - Current</p>
@@ -14,7 +14,7 @@ function WorkHistory() {
                     <li>Programmed browser utilities for simplification of routing processes.</li>
                 </ul>
             </div>
-            <div className="job">
+            <div className="education-item">
                 <h3>Fiber Specialist</h3>
                 <p>OneSupport – Austin, TX</p>
                 <p>10/2018 - 08/2022</p>
@@ -23,7 +23,7 @@ function WorkHistory() {
                     <li>Identified causes of issues within applications and determined modifications.</li>
                 </ul>
             </div>
-            <div className="job">
+            <div className="education-item">
                 <h3>Inventory Analyst</h3>
                 <p>Schneider Electric – Athens, TX</p>
                 <p>12/2015 - 03/2017</p>
@@ -32,7 +32,7 @@ function WorkHistory() {
                     <li>Managed logistic suppliers for optimum cost and quality.</li>
                 </ul>
             </div>
-            <div className="job">
+            <div className="education-item">
                 <h3>Industrial Electrician and Pipeline</h3>
                 <p>Johnny Ray Clements I&E – Mabank, TX</p>
                 <p>06/2008 - 08/2015</p>
@@ -43,6 +43,5 @@ function WorkHistory() {
         </section>
     );
 }
-
 
 export default WorkHistory;

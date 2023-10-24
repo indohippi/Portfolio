@@ -8,11 +8,11 @@ function Skills() {
     ];
 
     return (
-        <section className="skills-section box-section">
+        <section className="education-section">
             <h2>Skills</h2>
-            <div className="skills-list">
+            <div className="education-item">
                 {skillsArray.map(skill => (
-                    <span key={skill}>{skill}</span>
+                    <p key={skill}>{skill}</p>
                 ))}
             </div>
         </section>
