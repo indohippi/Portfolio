@@ -161,3 +161,19 @@ footer {
 body {
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+.images-container {
+  display: flex;
+  width: 100%;
+}
+
+.image-box {
+  flex: 1; /* This ensures each box takes up an equal amount of space */
+  overflow: hidden; /* This ensures that the image doesn't overflow its container */
+}
+
+.image-box img {
+  width: 100%; /* This scales the image to fit its container */
+  height: auto;
+  display: block;
+}

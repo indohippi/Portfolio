@@ -1,9 +1,23 @@
 import React from 'react';
+import profilePic1 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
+// Import the other two images here. For demonstration purposes, I'm using the same image three times.
+import profilePic2 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
+import profilePic3 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
 
 function Header() {
     return (
         <header className="header-container" style={{ backgroundImage: 'url(path_to_header_background.png)' }}>
-            <img src="/Users/jaredwienen/Desktop/my-portfolio/src/componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg" alt="Profile Picture" className="profile-pic" />
+            <div className="images-container">
+                <div className="image-box">
+                    <img src={profilePic1} alt="Profile Picture 1" />
+                </div>
+                <div className="image-box">
+                    <img src={profilePic2} alt="Profile Picture 2" />
+                </div>
+                <div className="image-box">
+                    <img src={profilePic3} alt="Profile Picture 3" />
+                </div>
+            </div>
             <h1 className="glow-effect">Jared Wienen</h1>
             <address className="contact-details">
                 Austin, United States 78626 <br/>
