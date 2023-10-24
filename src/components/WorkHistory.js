@@ -2,24 +2,25 @@ import React from 'react';
 
 function WorkHistory() {
     return (
-        <section>
+        <section className="work-history-section">
             <h2>Work History</h2>
-            <div>
-                <h3>Senior Developer at XYZ Corp (Jan 2019 - Present)</h3>
+            <div className="job">
+                <img src="path_to_company_logo_1.png" alt="Company Logo 1" />
+                <h3>Software Developer, ABC Corp (2018 - Present)</h3>
                 <ul>
-                    <li>Lead a team of 5 developers in building scalable web applications.</li>
-                    <li>Implemented CI/CD pipelines reducing deployment times by 40%.</li>
-                    <li>Optimized existing codebase leading to a 25% performance increase.</li>
+                    <li>Developed and maintained web applications using React and Node.js.</li>
+                    <li>Collaborated with cross-functional teams to define and implement new features.</li>
                 </ul>
             </div>
-            <div>
-                <h3>Mid-Level Developer at ABC Inc (Jun 2016 - Dec 2018)</h3>
+            <div className="job">
+                <img src="path_to_company_logo_2.png" alt="Company Logo 2" />
+                <h3>Frontend Developer, DEF Ltd (2016 - 2018)</h3>
                 <ul>
-                    <li>Developed and maintained 10+ web applications.</li>
-                    <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
-                    <li>Consistently delivered projects on-time and under budget.</li>
+                    <li>Designed and implemented user interfaces using HTML, CSS, and JavaScript.</li>
+                    <li>Optimized web pages for maximum speed and scalability.</li>
                 </ul>
             </div>
+            {/* Add more job roles as needed */}
         </section>
     );
 }
