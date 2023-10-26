@@ -1,8 +1,8 @@
 import React from 'react';
 import profilePic1 from '../componentmedia/hwavelogo2.png';
-// Import the other two images here. For demonstration purposes, I'm using the same image three times.
 import profilePic2 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
 import profilePic3 from '../componentmedia/hwavelogo2.png';
+import glowingCircle from '/Users/jaredwienen/Desktop/my-portfolio/src/componentmedia/tower_of_babel_3078757589.png'; // Replace with the path to your glowing circle image
 
 function Header() {
     return (
@@ -16,6 +16,9 @@ function Header() {
                 </div>
                 <div className="image-box">
                     <img src={profilePic3} alt="Profile Picture 3" />
+                </div>
+                <div className="glowing-circle-box">
+                    <img src={glowingCircle} alt="Glowing Circle" />
                 </div>
             </div>
             <h1 className="glow-effect">Jared Wienen</h1>
