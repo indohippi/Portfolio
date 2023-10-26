@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import profilePic1 from '../componentmedia/hwavelogo2.png';
 import profilePic2 from '../componentmedia/D36DD8F1-C364-41E6-973D-FFF6BF99BF54.jpeg';
-import profilePic3 from '../componentmedia/hwavelogo2.png';
-import glowingCircle from '../componentmedia/tower_of_babel_3078757589.png'; // Updated to relative path
+import profilePic3 from '../componentmedia/hwavelogo2.png'; // Updated to relative path
 
 function Header() {
     return (
@@ -17,11 +16,6 @@ function Header() {
                 </div>
                 <div className="image-box">
                     <img src={profilePic3} alt="Profile Picture 3" />
-                </div>
-                <div className="glowing-circle-box">
-                    <Link to="/projects"> {/* Wrap the image in a Link component */}
-                        <img src={glowingCircle} alt="Glowing Circle" />
-                    </Link>
                 </div>
             </div>
             <h1 className="glow-effect">Jared Wienen</h1>
