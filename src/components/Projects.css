@@ -1,21 +1,23 @@
 .projects-container {
     padding: 20px;
-    background-color: #ffffff; /* White background */
+    background-color: #2c2c2c; /* Updated to match navbar components */
+    color: white; /* Updated text color for contrast */
 }
 
 .project-item {
-    background-color: #f7f7f7; /* Light gray background */
+    background-color: #f5f5f5; /* Updated to match navbar components */
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
-    border: 1px solid #e0e0e0; /* Light gray border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
 }
 
 .project-item h2 {
     border-bottom: 1px solid #e0e0e0; /* Light gray */
     padding-bottom: 5px;
     margin-bottom: 20px;
+    color: #333; /* Updated text color for contrast */
 }
 
 .project-item a {
@@ -26,8 +28,5 @@
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
-}
-
-.project-item a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    margin-top: 10px; /* Added spacing for a more professional look */
 }
