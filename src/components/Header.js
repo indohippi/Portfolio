@@ -11,24 +11,26 @@ function Header() {
         <header className="header">
             <div className="header-images">
                 <img src={profilePic1} alt="Profile Pic 1" />
-                <img src={profilePic2} alt="Profile Pic 2" />
+                <div className="center-image">
+                    <img src={profilePic2} alt="Profile Pic 2" />
+                    <div className="header-links">
+                        <a href="mailto:jaredwienen@gmail.com">
+                            <img src={emailIcon} alt="Email Icon" />
+                        </a>
+                        <a href="https://linkedin.com/in/jaredwienen" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedinIcon} alt="LinkedIn Icon" />
+                        </a>
+                        <a href="https://github.com/indohippi" target="_blank" rel="noopener noreferrer">
+                            <img src={githubIcon} alt="GitHub Icon" />
+                        </a>
+                    </div>
+                </div>
                 <img src={profilePic3} alt="Profile Pic 3" />
             </div>
             <div className="header-info">
                 <h1>Jared Wienen</h1>
-                <p>Austin, United States 78626</p>
-                <p>Tel: 4305022281</p>
-                <div className="header-links">
-                    <a href="mailto:jaredwienen@gmail.com">
-                        <img src={emailIcon} alt="Email Icon" />
-                    </a>
-                    <a href="https://linkedin.com/in/jaredwienen" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedinIcon} alt="LinkedIn Icon" />
-                    </a>
-                    <a href="https://github.com/indohippi" target="_blank" rel="noopener noreferrer">
-                        <img src={githubIcon} alt="GitHub Icon" />
-                    </a>
-                </div>
+                <p>Full-stack Web Developer</p>
+                <p>Austin, TX</p>
             </div>
         </header>
     );
