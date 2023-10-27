@@ -1,7 +1,7 @@
 body {
-  font-family: 'Arial', sans-serif; /* Standard readable font */
-  color: #333; /* Dark gray text */
-  background-color: #f7f7f7; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -12,15 +12,16 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #ffffff; /* White background for content */
-  border: 1px solid #e0e0e0; /* Light border */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   flex: 1;
+  position: relative;
 }
 
 h2 {
   position: relative;
-  border-bottom: 1px solid #e0e0e0; /* Light gray */
+  border-bottom: 1px solid #e0e0e0;
   padding-bottom: 5px;
   margin-bottom: 20px;
   display: inline-block;
@@ -33,7 +34,7 @@ h2:after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ff69b4; /* Soft pink */
+  background-color: #ff69b4;
   transition: width 0.3s;
 }
 
@@ -48,10 +49,10 @@ ul {
 
 footer {
   text-align: center;
-  background-color: #ffffff; /* White background */
+  background-color: #ffffff;
   padding: 20px 0;
-  color: #333; /* Dark gray text */
-  border-top: 1px solid #e0e0e0; /* Light border */
+  color: #333;
+  border-top: 1px solid #e0e0e0;
 }
 
 .glow-effect {
@@ -223,4 +224,16 @@ footer {
 
 .header-links img:hover {
   transform: scale(1.1);
+}
+
+.floating-image {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.floating-image img {
+  width: 175px;
+  height: auto;
 }
