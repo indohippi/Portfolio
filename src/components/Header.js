@@ -8,7 +8,6 @@ function Header() {
     return (
         <header className="header">
             <div className="header-images">
-                
                 <div className="center-image">
                     <img src={profilePic2} alt="Profile Pic 2" />
                     <div className="header-links">
@@ -23,7 +22,6 @@ function Header() {
                         </a>
                     </div>
                 </div>
-                
             </div>
             <div className="header-info">
                 <h1>Jared Wienen</h1>
