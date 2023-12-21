@@ -22,26 +22,29 @@ function CircularNavbar() {
         height: '30px',
     };
 
+    const tabs = [
+        { label: 'Skills', icon: skillsIcon },
+        { label: 'Work History', icon: workIcon },
+        { label: 'Projects', icon: projectsIcon },
+        { label: 'Education', icon: educationIcon },
+        { label: 'Certifications', icon: certificationsIcon }
+    ];
+
     return (
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '200px' }}>
-                {['skills', 'work-history', 'projects', 'education', 'certifications'].map((tab, index) => (
+        <Box sx={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+            {tabs.map((tab, index) => (
+                <Box key={index} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: index !== 0 ? '20px' : 0 }}>
                     <Button
-                        key={index}
-                        onClick={() => setActiveTab(tab)}
-                        sx={{ padding: 0, marginLeft: index !== 0 ? '10px' : 0 }}
+                        onClick={() => setActiveTab(tab.label.toLowerCase().replace(/\s+/g, '-'))}
+                        sx={{ padding: 0 }}
                     >
-                        <img src={[skillsIcon, workIcon, projectsIcon, educationIcon, certificationsIcon][index]} alt={`${tab} Icon`} style={iconStyle} />
+                        <img src={tab.icon} alt={`${tab.label} Icon`} style={iconStyle} />
                     </Button>
-                ))}
-            </Box>
-            <Box>
-                {['Skills', 'Work History', 'Projects', 'Education', 'Certifications'].map((label, index) => (
-                    <Typography key={index} variant="subtitle2" sx={{ marginTop: '10px' }}>
-                        {label}
+                    <Typography variant="subtitle2" sx={{ marginTop: '10px' }}>
+                        {tab.label}
                     </Typography>
-                ))}
-            </Box>
+                </Box>
+            ))}
             {activeTab === 'summary' && <Summary />}
             {activeTab === 'skills' && <Skills />}
             {activeTab === 'work-history' && <WorkHistory />}

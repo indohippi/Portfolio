@@ -7,11 +7,11 @@ import githubIcon from '../componentmedia/githubicon.png';
 
 function Header() {
     return (
-        <AppBar position="static" color="default" elevation={0} sx={{ backgroundColor: '#2c2c2c', padding: '20px 0' }}>
+        <AppBar position="static" color="default" elevation={0} sx={{ backgroundColor: 'var(--primary-color)', padding: '20px 0' }}>
             <Toolbar>
                 <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                     <img src={profilePic2} alt="Profile Pic 2" style={{ borderRadius: '50%', width: '100px', height: '100px', marginRight: '20px' }} />
-                    <Typography variant="h6" sx={{ color: '#b3b3b3', fontSize: '1.5rem' }}>
+                    <Typography variant="h6" sx={{ color: 'var(--text-color)', fontSize: '1.5rem' }}>
                         Jared Wienen
                     </Typography>
                 </Box>

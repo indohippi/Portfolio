@@ -1,8 +1,20 @@
+:root {
+  --bg-color: #0c0c0c;
+  --primary-color: #0d0d0d;
+  --secondary-color: #fff;
+  --text-color: #fff;
+  --text-color-2: #fff;
+  --text-color-3: rgb(204, 0, 0);
+  --overlay-color: rgb(12 12 12 / 63%);
+}
+
 body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 code {

@@ -18,6 +18,7 @@ function App() {
                     <Header />
                     <AppStateProvider>
                         <CircularNavbar />
+                        {/* Place other components here */}
                     </AppStateProvider>
                     <Footer />
                     <Box sx={{ position: 'fixed', bottom: 10, left: 10, zIndex: 1000 }}>
