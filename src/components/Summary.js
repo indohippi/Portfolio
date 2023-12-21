@@ -1,16 +1,21 @@
 import React from 'react';
+import { Typography, Box, Paper } from '@mui/material';
 
-function ProfessionalSummary() {
+function Summary() {
     return (
-        <section className="education-section">
-            <h2>Professional Summary</h2>
-            <div className="education-item">
-                <p>
-                    With over six years of experience in IT and logistics, I am a web developer and data analyst who leverages computer science, problem-solving, and digital marketing skills to build and optimize digital solutions. As a web developer, I have a deep understanding of front-end and back-end technologies, and I have successfully developed, launched, and maintained numerous web applications, eCommerce platforms, and blogs. As a data analyst, I use tools like Google Analytics, Google Ads, Google AdSense, and Google Tag Manager to drive strategic growth and measure performance. I bridge the gap between technology and business objectives, making complex concepts accessible to all stakeholders involved.
-                </p>
-            </div>
-        </section>
+        <Box sx={{ padding: 2 }}>
+            <Paper elevation={3} sx={{ padding: 2 }}>
+                <Typography variant="h4" gutterBottom>
+                    About Me
+                </Typography>
+                <Typography variant="body1">
+                    {/* Add your summary content here */}
+                    I am a full-stack web developer with a passion for creating responsive and user-friendly applications. With a background in both front-end and back-end technologies, I bring a comprehensive approach to web development.
+                </Typography>
+                {/* Add more paragraphs or content as needed */}
+            </Paper>
+        </Box>
     );
 }
 
-export default ProfessionalSummary;
+export default Summary;
