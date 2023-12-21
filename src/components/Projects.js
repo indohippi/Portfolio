@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
     return (
-        <div className="projects-container">
+        <div className="projects-container" style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
             <div className="project-item">
                 <h2>Fullstack Academy Capstone</h2>
                 <p>

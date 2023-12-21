@@ -2,7 +2,7 @@ import React from 'react';
 
 function WorkHistory() {
     return (
-        <section className="education-section">
+        <section className="education-section" style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
             <h2>Work History</h2>
             <div className="education-item">
                 <h3>Logistics Scheduler</h3>
